@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 600px;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+}
+
+
+.top-section{
+    background-image: url(images/dune-bg.jpeg) ;
+    width: 100%;
+    height: 33vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom:  3.125em;
+}
+
+.search-section{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.695em;
+    padding: 0.3em 0.5em;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+#input-search{
+    width:  70%;
+    margin-right: 0.5em;
+    padding: 0.5em 0.5em;
+}
+#search-btn{
+    padding:0.25em 0.25em;
+    color: #f98111;
+}
+#search-btn:hover{
+    color: white;
+    background-color: rgb(225, 75, 20);
+    cursor: pointer;
+}
+
+#input-search,#search-btn,.search-section{
+    font-size: 1.25rem;
+    background-color: rgb(221, 220, 220);
+    border: none;
+}
+
+.page-intro{
+    color: rgb(255, 81, 0);
+    text-shadow: 0.5px 0.5px 1px rgb(222, 247, 84) ;
+    font-size: 3.125rem;
+}
+
+.link, .watch-link{
+    text-decoration: none;
+    color: white;
+}
+
+.line-straight{
+    display: flex;
+    justify-content: space-between;
+    margin: 3.75em 1.875em;
+    align-items: center;
+}
+
+.movie-box{
+    border-color: green;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.625em;
+    padding: 0.3125em 1.25em;
+}
+.movie-poster{
+    width: 7.5em;
+    margin-right: 1.25em;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+p.textColor{
+   font-weight: normal;
+}
+.timemovie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-btn,.remove-btn{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #f98111;
+    padding: 0.1875em 0.3125em;
+}
+hr{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.25em;
+    color: rgb(128, 120, 120);
+}
+.hidden{
+    display: none;
+}
